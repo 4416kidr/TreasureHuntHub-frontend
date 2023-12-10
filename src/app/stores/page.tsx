@@ -18,7 +18,7 @@ let storeData = {
   store3: {
     name: "Store 3",
     location: "Location 3",
-    storeStock: 3,
+    storeStock: 0,
     comment: "This is store 3",
     imagePath: "/path/to/store3/image",
   },
@@ -39,7 +39,7 @@ let storeData = {
   store6: {
     name: "Store 6",
     location: "Location 6",
-    storeStock: 4,
+    storeStock: 1,
     comment: "This is store 6",
     imagePath: "/path/to/store6/image",
   },
@@ -60,7 +60,7 @@ let storeData = {
   store9: {
     name: "Store 9",
     location: "Location 9",
-    storeStock: 3,
+    storeStock: 0,
     comment: "This is store 9",
     imagePath: "/path/to/store9/image",
   },

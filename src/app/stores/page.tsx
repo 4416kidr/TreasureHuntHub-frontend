@@ -76,7 +76,7 @@ let storeData = {
 export default function Home() {
   return (
     <main>
-      <h1>first page</h1>
+      <h1>stores page</h1>
       <ul className="flex flex-wrap">
         {Object.values(storeData).map((store) => (
           <li key={store.name} className="w-60 m-2 border border-red-500">

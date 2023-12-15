@@ -1,4 +1,4 @@
-type Store = {
+export type StoreType = {
   name: string
   location: string
   storeStock: number
@@ -6,9 +6,9 @@ type Store = {
   imagePath: string
 }
 
-export default function GetStoreData() {
+export default function GetStoreData(): StoreType[] {
   
-  const storeData: Store[] = [
+  const storeData: StoreType[] = [
       {
         name: "Store 1",
         location: "Location 1",
